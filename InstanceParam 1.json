@@ -1,0 +1,27 @@
+{
+    "StackName": "BK-Shared-services-AutoScaling-servers",
+    "Parameters":[
+        {
+            "ParameterKey": "pInstanceType",
+            "ParameterValue": "t2.medium"
+        },
+        {
+            "ParameterKey": "pAppName",
+            "ParameterValue": "ADS2"  
+        },
+        {
+            "ParameterKey": "pOSsystem",
+            "ParameterValue": "Linux"
+        },
+        {
+            "ParameterKey": "pWindowsAMI",
+            "ParameterValue": "ami-0ea6a9ded5194e937"
+        },
+        {
+            "ParameterKey": "pLinuxAMI",
+            "ParameterValue": "ami-04823729c75214919"
+        }
+    ]
+
+}
+
